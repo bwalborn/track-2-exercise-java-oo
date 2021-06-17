@@ -56,7 +56,7 @@ public interface Node {
      */
     public Double getValue();
 
-    /**
+    /**`
      * Sets the parent of the current node
      *
      * @param n

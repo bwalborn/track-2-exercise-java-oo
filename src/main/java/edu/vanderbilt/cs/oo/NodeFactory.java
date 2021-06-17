@@ -10,7 +10,7 @@ public class NodeFactory {
      * @return
      */
     public Node newCompositeNode(Double v){
-        return null;
+        return new CompositeNode(v);
     }
 
     /**
@@ -21,7 +21,7 @@ public class NodeFactory {
      * @return
      */
     public Node newNullNode(){
-        return null;
+        return new NullNode();
     }
 
 }
